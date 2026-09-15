@@ -1,0 +1,15 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+
+# Allow only the project files
+!gui_main.py
+!plotting.py
+!.gitignore
+!processor.py
+
+# Ignore compiled Python files
+**/*.pyc
+**/*.pyo
+**/__pycache__/
+
+.vscode/*
