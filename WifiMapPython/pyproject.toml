@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifimap"
+version = "1.0.0"
+description = "Interactive Wi-Fi coverage mapping desktop application"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0,<3.0",
+    "PySide6>=6.8,<7.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+wifimap = "wifimap.window:run"
+
+[tool.setuptools.packages.find]
+include = ["wifimap*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

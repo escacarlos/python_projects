@@ -1,0 +1,96 @@
+{
+  "format": "wifimap",
+  "version": 1,
+  "length": 500,
+  "width": 500,
+  "access_points": [
+    {
+      "id": 1,
+      "x": 111,
+      "y": 112,
+      "frequency": 2.4,
+      "power": 15
+    },
+    {
+      "id": 7,
+      "x": 109,
+      "y": 284,
+      "frequency": 5.0,
+      "power": 15
+    }
+  ],
+  "barriers": [
+    {
+      "id": 2,
+      "x1": 131,
+      "y1": 122,
+      "x2": 131,
+      "y2": 103,
+      "thickness": 10,
+      "material": "Plaster"
+    },
+    {
+      "id": 3,
+      "x1": 116,
+      "y1": 82,
+      "x2": 100,
+      "y2": 82,
+      "thickness": 10,
+      "material": "Wood"
+    },
+    {
+      "id": 4,
+      "x1": 83,
+      "y1": 104,
+      "x2": 83,
+      "y2": 123,
+      "thickness": 10,
+      "material": "Cement"
+    },
+    {
+      "id": 5,
+      "x1": 102,
+      "y1": 142,
+      "x2": 118,
+      "y2": 142,
+      "thickness": 10,
+      "material": "Reinforced concrete"
+    },
+    {
+      "id": 8,
+      "x1": 53,
+      "y1": 229,
+      "x2": 214,
+      "y2": 229,
+      "thickness": 10,
+      "material": "Metal"
+    },
+    {
+      "id": 9,
+      "x1": 38,
+      "y1": 387,
+      "x2": 214,
+      "y2": 387,
+      "thickness": 10,
+      "material": "Metal"
+    },
+    {
+      "id": 10,
+      "x1": 38,
+      "y1": 387,
+      "x2": 38,
+      "y2": 279,
+      "thickness": 10,
+      "material": "Brick"
+    },
+    {
+      "id": 11,
+      "x1": 216,
+      "y1": 412,
+      "x2": 216,
+      "y2": 200,
+      "thickness": 10,
+      "material": "Wood"
+    }
+  ]
+}
